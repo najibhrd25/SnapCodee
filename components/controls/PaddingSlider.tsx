@@ -1,4 +1,5 @@
 import { usePreferencesStore } from "@/store/use-preferences-store";
+
 import { Slider } from "../ui/slider";
 
 export default function PaddingSlider() {

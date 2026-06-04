@@ -1,9 +1,10 @@
-import { cn } from "@/lib/utils";
 import flourite from "flourite";
-import { codeSnippets, fonts } from "@/options";
 import hljs from "highlight.js";
 import { useEffect } from "react";
 import Editor from "react-simple-code-editor";
+
+import { cn } from "@/lib/utils";
+import { codeSnippets, fonts } from "@/options";
 import { usePreferencesStore } from "@/store/use-preferences-store";
 
 export default function CodeEditor() {

@@ -1,4 +1,8 @@
+import { MagicWandIcon } from "@radix-ui/react-icons";
+
 import { languages } from "@/options";
+import { usePreferencesStore } from "@/store/use-preferences-store";
+
 import {
   Select,
   SelectContent,
@@ -6,8 +10,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../ui/select";
-import { usePreferencesStore } from "@/store/use-preferences-store";
-import { MagicWandIcon } from "@radix-ui/react-icons";
 
 export default function LanguageSelect() {
   const language = usePreferencesStore((state) => state.language);
